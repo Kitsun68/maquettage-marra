@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Formulaires</title>
+</head>
+
+<body>
+   
+    <h1>On My Way</h1>
+    <h2>Connexion</h2>
+    <fieldset>
+        <form action="">
+            <div>
+                <label for="eMail">E-mail* : </label>
+                <input required type="email" name="eMail" id="eMail" placeholder="johndoe@gmail.com" />
+            </div>
+            <div>
+                <label for="mdp">Mot de passe** : </label>
+                <input required type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" minlength="8"
+                    maxlength="12" />
+            </div>
+            <div>
+                <button id="loginForm" type="submit">Se connecter</button>
+            </div>
+        </form>
+        <p>*Champs requis
+            <br />
+            **Mot de passe compris entre 8 et 12 caractères.
+        </p>
+    </fieldset>
+</body>
+
+</html>

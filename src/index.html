@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>Formulaire Virginie Marra</title>
+    <script src="https://kit.fontawesome.com/0b046cd889.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,6 +38,13 @@
                 <input type="text"required autocomplete="off"/>
               </div>
             </div>
+
+            <div class="field-wrap">
+              <label>
+                Date de naissance (jj/mm/aaaa)<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off"/>
+            </div>
   
             <div class="field-wrap">
               <label>
@@ -52,9 +60,27 @@
               <input type="password" minlength="8"
               maxlength="12" required autocomplete="off"/>
             </div>
-            
+            <div class="field-wrap">
+              <label>
+                Confirmation mot de passe<span class="req">*</span>
+              </label>
+              <input type="password" minlength="8"
+              maxlength="12" required autocomplete="off"/>
+            </div>
+            <p class="forgot-left">*Champs obligatoires</p>
+            <p class="forgot-left">Note : Mot de passe compris entre 8 et 12 caractères.</p>
+            <hr/>
+            <a href="facebook.com/" class="button-log button-block"><i class="fab fa-facebook-f"></i> CRÉER AVEC FACEBOOK</a>
+            <a href="google.com/" class="button-log button-block"><i class="fab fa-google"></i>
+            </i> CRÉER AVEC GOOGLE</a>
+            <p class="forgot-center">En créant un compte vous aceptez les Termes compris dans notre Charte des Services et Confidentialités. 
+              <br/>
+              Si vous avez déjà un compte, veuillez <a href="#login">Cliquez ici</a>
+            </p>
+            <hr/>
+
             <button type="submit" class="button button-block">C'est parti</button>
-            <p class="note">Note : Mot de passe compris entre 8 et 12 caractères.</p>
+            
             <p class="inscrit"><a href="#login">Vous avez déjà un compte ?</a></p>
             </form>
   
@@ -74,10 +100,16 @@
                 <input required type="password" name="mdp" id="mdp" minlength="8"
                     maxlength="12" />
             </div>
-            <div>
-                <button class="button button-block" id="loginForm" type="submit">Se connecter</button>
-            </div>
             <p class="forgot"><a href="#">Mot de passe oublié ?</a></p>
+            <hr/>
+            <a href="facebook.com/" class="button-log button-block"><i class="fab fa-facebook-f"></i> SE CONNECTER AVEC FACEBOOK</a>
+            <a href="google.com/" class="button-log button-block"><i class="fab fa-google"></i>
+            </i> SE CONNECTER AVEC GOOGLE</a>
+            <hr/>
+            <div>
+              <button class="button button-block" id="loginForm" type="submit">Se connecter</button>
+          </div>
+          <p class="forgot">Vous n'avez pas de compte ? <a href="#signup">Cliquez ici</a></p>
         </form>
   
           </div>

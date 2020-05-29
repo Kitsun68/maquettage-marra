@@ -6,18 +6,20 @@ html {
 }
 body {
   background: #c1bdba;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Century Gothic', sans-serif;
 }
 a {
-  text-decoration: none;
-  color: #1ab188;
+  color: #4c4552;
   transition: 0.5s ease;
 }
 a:hover {
-  color: #179b77;
+  color: #3c2d49;
+}
+p{
+  color:#4c4552;
 }
 .form {
-  background: rgba(19, 35, 47, 0.9);
+  background: white;
   padding: 40px;
   max-width: 600px;
   margin: 40px auto;
@@ -48,11 +50,11 @@ a:hover {
   transition: 0.5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
+  background: #cf7d2f;
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #1ab188;
+  background: #e79850;
   color: #ffffff;
 }
 /* .tabs-content > div:last-child {
@@ -60,7 +62,7 @@ a:hover {
 } */
 h1 {
   text-align: center;
-  color: #ffffff;
+  color: #4c4552;
   font-weight: 300;
   margin: 0 0 40px;
 }
@@ -68,7 +70,7 @@ label {
   position: absolute;
   transform: translateY(6px);
   left: 13px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(76, 69, 82, 0.5);
   transition: all 0.25s ease;
   -webkit-backface-visibility: hidden;
   pointer-events: none;
@@ -76,7 +78,7 @@ label {
 }
 label .req {
   margin: 2px;
-  color: #1ab188;
+  color: #e79850;
 }
 label.active {
   transform: translateY(50px);
@@ -87,7 +89,7 @@ label.active .req {
   opacity: 0;
 }
 label.highlight {
-  color: #ffffff;
+  color: #4c4552;
 }
 input, textarea {
   font-size: 22px;
@@ -98,13 +100,13 @@ input, textarea {
   background: none;
   background-image: none;
   border: 1px solid #a0b3b0;
-  color: #ffffff;
+  color: #4c4552;
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 input:focus, textarea:focus {
   outline: 0;
-  border-color: #1ab188;
+  border-color: #e79850;
 }
 textarea {
   border: 2px solid #a0b3b0;
@@ -130,27 +132,73 @@ textarea {
 .button {
   border: 0;
   outline: none;
-  border-radius: 0;
+  border-radius: 30px;
   padding: 15px 0;
-  font-size: 2rem;
+  font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background: #1ab188;
+  background: #e79850;
   color: #ffffff;
   transition: all 0.5s ease;
   -webkit-appearance: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .button:hover, .button:focus {
-  background: #179b77;
+  background: #cf7d2f;
 }
 .button-block {
   display: block;
   width: 100%;
 }
+.button-log{
+  border-radius:30px;
+  border:#e79850 3px solid;
+  background-color: white;
+  padding:15px 0;
+  font-size: 1em;
+  text-align: left;
+  color:#4c4552;
+  margin: 20px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button-log:hover{
+  border-radius:30px;
+  border:#cf7d2f 3px solid;
+  background-color: white;
+  padding:15px 0;
+  font-size: 1em;
+  text-align: left;
+  color:#4c4552;
+  margin: 20px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+.fab{
+  padding:0 90px 0 30px;
+  color:#4c4552;
+}
+hr{
+  color:#e79850;
+  width:35px;
+  height:5px;
+  border-radius:30px;
+  background-color: #e79850;
+  border:none;
+  margin-bottom: 30px;
+}
 .forgot {
   margin-top: 20px;
   text-align: right;
+} 
+.forgot-left{
+  margin-top: 20px;
+  text-align: left;
+} 
+.forgot-center{
+  margin-top: 20px;
+  text-align: center;
 } 
 .inscrit{
     margin-top: 20px;
@@ -158,7 +206,7 @@ textarea {
 }
 .note {
     font-size:0.7em;
-    color:whitesmoke;
+    color:#4c4552;
     padding-top:20px;
 }
 
